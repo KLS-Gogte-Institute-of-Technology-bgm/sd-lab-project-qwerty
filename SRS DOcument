@@ -1,0 +1,22 @@
+SRS document for Gym management:
+
+Functional requirements:
+1.	User login: The manager is provided with a username and a password, using this he can login. After successful login the user is taken to the home page. 
+2.	Add Customer: An authorized user can add a new customer by filling up details like customer’s name, contact details and join date (DD-MM-YYYY).
+3.	Add Package: The manger needs to assign an ID to the newly created package and specify the type of membership with its cost.
+4.	Show all Customers: A authorized user can use this option to view all the registered users and the user can also delete a customer.
+5.	Show all Packages: A authorized user can use this option to view all the packages and can also delete a package.
+6.	Search a customer: Search for a customer using his/her name. A message box is popped with an appropriate message.
+7.	Add subscription: To add a subscription the user needs to enter customer name and package ID and also specify the number of months the customer wants to buy a package.
+8.	Add payment: To keep a record of payments user needs to enter the customer name and the amount paid.
+
+Non-functional requirements:
+1.System requirements: 
+i) Ram: 1Gb
+		ii) Processor: Pentium Dual core 1.8 Ghz
+		iii) OS: Linux / Windows 7
+	2.Design: The system should be an offline application.
+	3.Ease of use: The application should be user friendly and intuitive to use.
+	4.Speed:
+i) The application should open and be ready to use within 10 seconds of being selected.
+ii) The UI should be quick and smooth with no delays between button presses and screen reactions.
